@@ -9,5 +9,10 @@ namespace ПрактикаКПиЯП
         public string name = " ";
         public string cipher = " ";
         public int count = 0;
+
+        public void Print()
+        {
+            Console.WriteLine($"Имя: {name}  Шифровка: {cipher} счётчик{count}");
+        }
     }
 }

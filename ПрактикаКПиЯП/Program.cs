@@ -6,7 +6,10 @@ namespace ПрактикаКПиЯП
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Products name = new Products();
+            name.name = "";
+            name.cipher = "";
+            name.count = 1;
         }
     }
 }
